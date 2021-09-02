@@ -3,7 +3,7 @@ import heroes from "../../data/heroes";
 
 describe("Pruebas en funciones de heroes", () => {
   test("should return heroe y id", () => {
-    const id = 1;
+    const id = 2;
     const heroe = getHeroeById(id);
     const heroeData = heroes.find((h) => h.id === id);
     expect(heroe).toEqual(heroeData);
